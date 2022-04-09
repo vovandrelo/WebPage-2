@@ -1,0 +1,42 @@
+@mixin title($color)
+    font-size: 38px
+    font-weight: 700
+    text-transform: uppercase
+    text-align: center
+    color: $color
+    margin: 0
+    margin-top: 38px
+    line-height: 30px
+
+@mixin subtitle($color)
+    text-align: center
+    margin: 0
+    margin-top: 20px
+    font-size: 17px
+    font-weight: 400
+    color: $color
+
+@mixin notice($bg, $text)
+    width: 112px
+    min-height: 24px
+    padding: 6px 0 6px 0
+    margin: 0 auto
+    background-color: $bg
+    font-size: 11px
+    font-weight: 100
+    text-transform: uppercase
+    text-align: center
+    color: $text
+
+@mixin btn($fontSieze)
+    font-size: $fontSieze
+    text-align: center
+    padding: 1.15em 0 1.15em 0
+    font-weight: 400
+    text-transform: uppercase
+    color: #ffffff
+    width: 12.7em
+    height: 3.7em
+    background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%)
+    border: none
+    border-radius: 0.28em
